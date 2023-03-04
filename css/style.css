@@ -94,6 +94,9 @@ section {
     /* border-radius: 50%; */
 }
 
+.home-img svg path {
+}
+
 @keyframes floatImage {
     0%{
         transform: translateY(0);
@@ -127,6 +130,10 @@ span {
 
 .home-content p {
     font-size: 1.6rem;
+}
+
+.home-content p a {
+    color: #0ef;
 }
 
 .social-media a {
@@ -239,8 +246,10 @@ span {
 }
 
 .services-box p {
+    padding: 25px;
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
+    text-align:center;
 }
 
 
